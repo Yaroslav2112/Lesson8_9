@@ -25,7 +25,7 @@ public class Rivnyanya {
             double x1 = (((Math.sqrt(b*b-4*a*c))-b)/(2*a));
             double x2 = ((((Math.sqrt(b*b-4*a*c))*(-1))-b)/(2*a));
             System.out.println("X1 = " + x1 + "\n" + "X2 = " + x2);
-//            System.out.println(a + "\n" + b + "\n" + c);
+
         } catch (Exception e) {
             System.out.println("Введіть змінні правильно");
         } finally {
